@@ -56,8 +56,8 @@ Client authentication will be done via mutual TLS. We therefore need to check if
 
 Then add the following between <VirtualHost \*:443> </VirtualHost> :
 
-`SSLVerifyClient optional
-SSLVerifyDepth 1
+`SSLVerifyClient optional \
+SSLVerifyDepth 1 \
 SSLOptions +StdEnvVars
 SSLCACertificateFile /etc/httpd/ADCA.crt
 SSLUserName SSL_CLIENT_S_DN_CN`
