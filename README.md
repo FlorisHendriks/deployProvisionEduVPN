@@ -33,7 +33,7 @@ the deploy script and follow the steps.
 
 Perform these steps on the host where you want to deploy:
 
-    $ git clone 
+    $ git clone https://github.com/FlorisHendriks98/deployProvisionEduVPN.git
 
 Run the script (as root):
 
