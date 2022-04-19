@@ -1,0 +1,22 @@
+2022-04-18 17:06:16,432 - Mock Version: 3.0
+2022-04-18 17:06:16,451 - Start: clean chroot
+2022-04-18 17:06:21,357 - Finish: clean chroot
+2022-04-18 17:06:21,364 - Start(bootstrap): chroot init
+2022-04-18 17:06:21,477 - Start(bootstrap): cleaning package manager metadata
+2022-04-18 17:06:21,479 - Finish(bootstrap): cleaning package manager metadata
+2022-04-18 17:06:21,961 - Finish(bootstrap): chroot init
+2022-04-18 17:06:21,969 - Start: chroot init
+2022-04-18 17:06:22,039 - Start: unpacking root cache
+2022-04-18 17:06:23,949 - Finish: unpacking root cache
+2022-04-18 17:06:23,955 - Start: cleaning package manager metadata
+2022-04-18 17:06:23,959 - Finish: cleaning package manager metadata
+2022-04-18 17:06:25,792 - Start: dnf update
+2022-04-18 17:06:30,252 - Finish: dnf update
+2022-04-18 17:06:30,265 - Finish: chroot init
+2022-04-18 17:06:30,270 - Start: build phase for vpn-maint-scripts-3.0.0-0.8.fc34.src.rpm
+2022-04-18 17:06:30,273 - Start: build setup for vpn-maint-scripts-3.0.0-0.8.fc34.src.rpm
+2022-04-18 17:06:34,376 - Finish: build setup for vpn-maint-scripts-3.0.0-0.8.fc34.src.rpm
+2022-04-18 17:06:34,377 - Start: rpmbuild vpn-maint-scripts-3.0.0-0.8.fc34.src.rpm
+2022-04-18 17:06:35,277 - Finish: rpmbuild vpn-maint-scripts-3.0.0-0.8.fc34.src.rpm
+2022-04-18 17:06:35,287 - Finish: build phase for vpn-maint-scripts-3.0.0-0.8.fc34.src.rpm
+2022-04-19 09:16:12,679 - Mock Version: 3.0

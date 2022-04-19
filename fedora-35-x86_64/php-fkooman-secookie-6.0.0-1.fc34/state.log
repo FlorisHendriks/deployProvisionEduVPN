@@ -1,0 +1,23 @@
+2022-04-19 09:16:17,844 - Mock Version: 3.0
+2022-04-19 09:16:17,911 - Start: clean chroot
+2022-04-19 09:16:23,093 - Finish: clean chroot
+2022-04-19 09:16:23,101 - Start(bootstrap): chroot init
+2022-04-19 09:16:23,218 - Start(bootstrap): cleaning package manager metadata
+2022-04-19 09:16:23,220 - Finish(bootstrap): cleaning package manager metadata
+2022-04-19 09:16:23,886 - Finish(bootstrap): chroot init
+2022-04-19 09:16:23,893 - Start: chroot init
+2022-04-19 09:16:23,955 - Start: unpacking root cache
+2022-04-19 09:16:27,220 - Finish: unpacking root cache
+2022-04-19 09:16:27,225 - Start: cleaning package manager metadata
+2022-04-19 09:16:27,230 - Finish: cleaning package manager metadata
+2022-04-19 09:16:29,172 - Start: dnf update
+2022-04-19 09:16:51,378 - Finish: dnf update
+2022-04-19 09:16:51,391 - Finish: chroot init
+2022-04-19 09:16:51,398 - Start: build phase for php-fkooman-secookie-6.0.0-1.fc34.src.rpm
+2022-04-19 09:16:51,401 - Start: build setup for php-fkooman-secookie-6.0.0-1.fc34.src.rpm
+2022-04-19 09:17:11,730 - Finish: build setup for php-fkooman-secookie-6.0.0-1.fc34.src.rpm
+2022-04-19 09:17:11,731 - Start: Outputting list of installed packages
+2022-04-19 09:17:11,927 - Finish: Outputting list of installed packages
+2022-04-19 09:17:11,928 - Start: rpmbuild php-fkooman-secookie-6.0.0-1.fc34.src.rpm
+2022-04-19 09:17:12,940 - Finish: rpmbuild php-fkooman-secookie-6.0.0-1.fc34.src.rpm
+2022-04-19 09:17:12,949 - Finish: build phase for php-fkooman-secookie-6.0.0-1.fc34.src.rpm

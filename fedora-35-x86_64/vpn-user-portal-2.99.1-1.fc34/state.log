@@ -1,0 +1,21 @@
+2022-04-19 09:17:13,367 - Mock Version: 3.0
+2022-04-19 09:17:13,376 - Start: clean chroot
+2022-04-19 09:17:18,667 - Finish: clean chroot
+2022-04-19 09:17:18,674 - Start(bootstrap): chroot init
+2022-04-19 09:17:18,778 - Start(bootstrap): cleaning package manager metadata
+2022-04-19 09:17:18,780 - Finish(bootstrap): cleaning package manager metadata
+2022-04-19 09:17:19,292 - Finish(bootstrap): chroot init
+2022-04-19 09:17:19,300 - Start: chroot init
+2022-04-19 09:17:19,348 - Start: unpacking root cache
+2022-04-19 09:17:21,957 - Finish: unpacking root cache
+2022-04-19 09:17:21,962 - Start: cleaning package manager metadata
+2022-04-19 09:17:21,966 - Finish: cleaning package manager metadata
+2022-04-19 09:17:22,980 - Start: dnf update
+2022-04-19 09:17:27,921 - Finish: dnf update
+2022-04-19 09:17:27,932 - Finish: chroot init
+2022-04-19 09:17:27,936 - Start: build phase for vpn-user-portal-2.99.1-1.fc34.src.rpm
+2022-04-19 09:17:27,938 - Start: build setup for vpn-user-portal-2.99.1-1.fc34.src.rpm
+2022-04-19 09:17:45,661 - Finish: build setup for vpn-user-portal-2.99.1-1.fc34.src.rpm
+2022-04-19 09:17:45,662 - Start: rpmbuild vpn-user-portal-2.99.1-1.fc34.src.rpm
+2022-04-19 09:17:48,314 - Finish: rpmbuild vpn-user-portal-2.99.1-1.fc34.src.rpm
+2022-04-19 09:17:48,335 - Finish: build phase for vpn-user-portal-2.99.1-1.fc34.src.rpm

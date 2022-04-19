@@ -1,0 +1,47 @@
+2022-04-18 16:56:48,577 - Mock Version: 3.0
+2022-04-18 16:56:48,587 - Start: clean chroot
+2022-04-18 16:56:53,851 - Finish: clean chroot
+2022-04-18 16:56:53,858 - Start(bootstrap): chroot init
+2022-04-18 16:56:53,967 - Start(bootstrap): cleaning package manager metadata
+2022-04-18 16:56:53,969 - Finish(bootstrap): cleaning package manager metadata
+2022-04-18 16:56:54,487 - Finish(bootstrap): chroot init
+2022-04-18 16:56:54,496 - Start: chroot init
+2022-04-18 16:56:54,557 - Start: unpacking root cache
+2022-04-18 16:56:56,780 - Finish: unpacking root cache
+2022-04-18 16:56:56,787 - Start: cleaning package manager metadata
+2022-04-18 16:56:56,791 - Finish: cleaning package manager metadata
+2022-04-18 16:56:57,840 - Start: dnf update
+2022-04-18 16:57:03,761 - Finish: dnf update
+2022-04-18 16:57:03,774 - Finish: chroot init
+2022-04-18 16:57:03,779 - Start: build phase for php-fkooman-oauth2-server-7.0.0-1.fc34.src.rpm
+2022-04-18 16:57:03,781 - Start: build setup for php-fkooman-oauth2-server-7.0.0-1.fc34.src.rpm
+2022-04-18 16:57:19,819 - Finish: build setup for php-fkooman-oauth2-server-7.0.0-1.fc34.src.rpm
+2022-04-18 16:57:19,820 - Start: Outputting list of installed packages
+2022-04-18 16:57:20,043 - Finish: Outputting list of installed packages
+2022-04-18 16:57:20,043 - Start: rpmbuild php-fkooman-oauth2-server-7.0.0-1.fc34.src.rpm
+2022-04-18 16:57:20,971 - Finish: rpmbuild php-fkooman-oauth2-server-7.0.0-1.fc34.src.rpm
+2022-04-18 16:57:20,997 - Finish: build phase for php-fkooman-oauth2-server-7.0.0-1.fc34.src.rpm
+2022-04-18 17:02:26,225 - Mock Version: 3.0
+2022-04-18 17:02:26,258 - Start: clean chroot
+2022-04-18 17:02:31,228 - Finish: clean chroot
+2022-04-18 17:02:31,235 - Start(bootstrap): chroot init
+2022-04-18 17:02:31,349 - Start(bootstrap): cleaning package manager metadata
+2022-04-18 17:02:31,351 - Finish(bootstrap): cleaning package manager metadata
+2022-04-18 17:02:31,877 - Finish(bootstrap): chroot init
+2022-04-18 17:02:31,885 - Start: chroot init
+2022-04-18 17:02:31,934 - Start: unpacking root cache
+2022-04-18 17:02:33,938 - Finish: unpacking root cache
+2022-04-18 17:02:33,946 - Start: cleaning package manager metadata
+2022-04-18 17:02:33,950 - Finish: cleaning package manager metadata
+2022-04-18 17:02:35,014 - Start: dnf update
+2022-04-18 17:02:39,304 - Finish: dnf update
+2022-04-18 17:02:39,324 - Finish: chroot init
+2022-04-18 17:02:39,328 - Start: build phase for php-fkooman-oauth2-server-7.0.0-1.fc34.src.rpm
+2022-04-18 17:02:39,330 - Start: build setup for php-fkooman-oauth2-server-7.0.0-1.fc34.src.rpm
+2022-04-18 17:02:55,257 - Finish: build setup for php-fkooman-oauth2-server-7.0.0-1.fc34.src.rpm
+2022-04-18 17:02:55,258 - Start: Outputting list of installed packages
+2022-04-18 17:02:55,505 - Finish: Outputting list of installed packages
+2022-04-18 17:02:55,505 - Start: rpmbuild php-fkooman-oauth2-server-7.0.0-1.fc34.src.rpm
+2022-04-18 17:02:56,491 - Finish: rpmbuild php-fkooman-oauth2-server-7.0.0-1.fc34.src.rpm
+2022-04-18 17:02:56,498 - Finish: build phase for php-fkooman-oauth2-server-7.0.0-1.fc34.src.rpm
+2022-04-19 09:15:31,154 - Mock Version: 3.0

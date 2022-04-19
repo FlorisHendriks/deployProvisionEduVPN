@@ -1,0 +1,22 @@
+2022-04-18 17:15:17,715 - Mock Version: 3.0
+2022-04-18 17:15:17,726 - Start: clean chroot
+2022-04-18 17:15:21,505 - Finish: clean chroot
+2022-04-18 17:15:21,512 - Start(bootstrap): chroot init
+2022-04-18 17:15:21,610 - Start(bootstrap): cleaning package manager metadata
+2022-04-18 17:15:21,612 - Finish(bootstrap): cleaning package manager metadata
+2022-04-18 17:15:22,080 - Finish(bootstrap): chroot init
+2022-04-18 17:15:22,088 - Start: chroot init
+2022-04-18 17:15:22,125 - Start: unpacking root cache
+2022-04-18 17:15:24,008 - Finish: unpacking root cache
+2022-04-18 17:15:24,014 - Start: cleaning package manager metadata
+2022-04-18 17:15:24,018 - Finish: cleaning package manager metadata
+2022-04-18 17:15:25,039 - Start: dnf update
+2022-04-18 17:15:29,853 - Finish: dnf update
+2022-04-18 17:15:29,865 - Finish: chroot init
+2022-04-18 17:15:29,870 - Start: build phase for vpn-portal-artwork-eduVPN-3.0.0-0.5.fc34.src.rpm
+2022-04-18 17:15:29,872 - Start: build setup for vpn-portal-artwork-eduVPN-3.0.0-0.5.fc34.src.rpm
+2022-04-18 17:15:34,490 - Finish: build setup for vpn-portal-artwork-eduVPN-3.0.0-0.5.fc34.src.rpm
+2022-04-18 17:15:34,491 - Start: rpmbuild vpn-portal-artwork-eduVPN-3.0.0-0.5.fc34.src.rpm
+2022-04-18 17:15:35,364 - Finish: rpmbuild vpn-portal-artwork-eduVPN-3.0.0-0.5.fc34.src.rpm
+2022-04-18 17:15:35,372 - Finish: build phase for vpn-portal-artwork-eduVPN-3.0.0-0.5.fc34.src.rpm
+2022-04-19 09:17:48,627 - Mock Version: 3.0

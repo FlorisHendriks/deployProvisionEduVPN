@@ -1,0 +1,24 @@
+2022-04-18 17:15:35,578 - Mock Version: 3.0
+2022-04-18 17:15:35,589 - Start: clean chroot
+2022-04-18 17:15:39,416 - Finish: clean chroot
+2022-04-18 17:15:39,423 - Start(bootstrap): chroot init
+2022-04-18 17:15:39,523 - Start(bootstrap): cleaning package manager metadata
+2022-04-18 17:15:39,525 - Finish(bootstrap): cleaning package manager metadata
+2022-04-18 17:15:39,990 - Finish(bootstrap): chroot init
+2022-04-18 17:15:39,997 - Start: chroot init
+2022-04-18 17:15:40,035 - Start: unpacking root cache
+2022-04-18 17:15:41,877 - Finish: unpacking root cache
+2022-04-18 17:15:41,883 - Start: cleaning package manager metadata
+2022-04-18 17:15:41,886 - Finish: cleaning package manager metadata
+2022-04-18 17:15:42,898 - Start: dnf update
+2022-04-18 17:15:47,501 - Finish: dnf update
+2022-04-18 17:15:47,515 - Finish: chroot init
+2022-04-18 17:15:47,519 - Start: build phase for vpn-portal-artwork-LC-3.0.0-0.3.fc34.src.rpm
+2022-04-18 17:15:47,522 - Start: build setup for vpn-portal-artwork-LC-3.0.0-0.3.fc34.src.rpm
+2022-04-18 17:15:50,991 - Finish: build setup for vpn-portal-artwork-LC-3.0.0-0.3.fc34.src.rpm
+2022-04-18 17:15:50,992 - Start: rpmbuild vpn-portal-artwork-LC-3.0.0-0.3.fc34.src.rpm
+2022-04-18 17:15:51,588 - Finish: rpmbuild vpn-portal-artwork-LC-3.0.0-0.3.fc34.src.rpm
+2022-04-18 17:15:51,597 - Finish: build phase for vpn-portal-artwork-LC-3.0.0-0.3.fc34.src.rpm
+2022-04-18 17:15:51,783 - Finish: run
+2022-04-19 09:17:48,660 - Mock Version: 3.0
+2022-04-19 09:17:48,674 - Finish: run

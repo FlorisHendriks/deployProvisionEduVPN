@@ -1,0 +1,22 @@
+2022-04-18 17:13:28,853 - Mock Version: 3.0
+2022-04-18 17:13:28,863 - Start: clean chroot
+2022-04-18 17:13:34,922 - Finish: clean chroot
+2022-04-18 17:13:34,928 - Start(bootstrap): chroot init
+2022-04-18 17:13:35,015 - Start(bootstrap): cleaning package manager metadata
+2022-04-18 17:13:35,016 - Finish(bootstrap): cleaning package manager metadata
+2022-04-18 17:13:35,479 - Finish(bootstrap): chroot init
+2022-04-18 17:13:35,486 - Start: chroot init
+2022-04-18 17:13:35,523 - Start: unpacking root cache
+2022-04-18 17:13:37,417 - Finish: unpacking root cache
+2022-04-18 17:13:37,422 - Start: cleaning package manager metadata
+2022-04-18 17:13:37,426 - Finish: cleaning package manager metadata
+2022-04-18 17:13:38,962 - Start: dnf update
+2022-04-18 17:13:43,314 - Finish: dnf update
+2022-04-18 17:13:43,329 - Finish: chroot init
+2022-04-18 17:13:43,333 - Start: build phase for vpn-daemon-3.0.0-0.7.fc34.src.rpm
+2022-04-18 17:13:43,335 - Start: build setup for vpn-daemon-3.0.0-0.7.fc34.src.rpm
+2022-04-18 17:14:09,808 - Finish: build setup for vpn-daemon-3.0.0-0.7.fc34.src.rpm
+2022-04-18 17:14:09,809 - Start: rpmbuild vpn-daemon-3.0.0-0.7.fc34.src.rpm
+2022-04-18 17:14:29,498 - Finish: rpmbuild vpn-daemon-3.0.0-0.7.fc34.src.rpm
+2022-04-18 17:14:29,510 - Finish: build phase for vpn-daemon-3.0.0-0.7.fc34.src.rpm
+2022-04-19 09:17:13,292 - Mock Version: 3.0

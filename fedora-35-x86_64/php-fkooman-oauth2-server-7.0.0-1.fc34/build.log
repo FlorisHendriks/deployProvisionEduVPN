@@ -1,0 +1,129 @@
+Mock Version: 3.0
+ENTER ['do_with_status'](['bash', '--login', '-c', '/usr/bin/rpmbuild -bs --target x86_64 --nodeps /builddir/build/SPECS/php-fkooman-oauth2-server.spec'], chrootPath='/var/lib/mock/fedora-35-x86_64/root'env={'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'}shell=Falselogger=<mockbuild.trace_decorator.getLog object at 0x7f1dab5f10d0>timeout=0uid=1000gid=135user='mockbuild'nspawn_args=['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.t3wzkac8:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']unshare_net=TrueprintOutput=True)
+Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.t3wzkac8:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '50c345de5ba8433b907d948ee3f7fbeb', '-D', '/var/lib/mock/fedora-35-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.t3wzkac8:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', 'bash', '--login', '-c', '/usr/bin/rpmbuild -bs --target x86_64 --nodeps /builddir/build/SPECS/php-fkooman-oauth2-server.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1641254400
+Wrote: /builddir/build/SRPMS/php-fkooman-oauth2-server-7.0.0-1.fc35.src.rpm
+Child return code was: 0
+ENTER ['do_with_status'](['bash', '--login', '-c', '/usr/bin/rpmbuild -bb --target x86_64 --nodeps /builddir/build/SPECS/php-fkooman-oauth2-server.spec'], chrootPath='/var/lib/mock/fedora-35-x86_64/root'env={'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8'}shell=Falselogger=<mockbuild.trace_decorator.getLog object at 0x7f1dab5f10d0>timeout=0uid=1000gid=135user='mockbuild'nspawn_args=['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.t3wzkac8:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']unshare_net=TrueprintOutput=True)
+Using nspawn with args ['--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.t3wzkac8:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11']
+Executing command: ['/usr/bin/systemd-nspawn', '-q', '-M', '388f63ca47b34ef3a49dc6bcd9ab42c3', '-D', '/var/lib/mock/fedora-35-x86_64/root', '-a', '-u', 'mockbuild', '--capability=cap_ipc_lock', '--bind=/tmp/mock-resolv.t3wzkac8:/etc/resolv.conf', '--bind=/dev/btrfs-control', '--bind=/dev/loop-control', '--bind=/dev/loop0', '--bind=/dev/loop1', '--bind=/dev/loop2', '--bind=/dev/loop3', '--bind=/dev/loop4', '--bind=/dev/loop5', '--bind=/dev/loop6', '--bind=/dev/loop7', '--bind=/dev/loop8', '--bind=/dev/loop9', '--bind=/dev/loop10', '--bind=/dev/loop11', '--console=pipe', '--setenv=TERM=vt100', '--setenv=SHELL=/bin/bash', '--setenv=HOME=/builddir', '--setenv=HOSTNAME=mock', '--setenv=PATH=/usr/bin:/bin:/usr/sbin:/sbin', '--setenv=PROMPT_COMMAND=printf "\\033]0;<mock-chroot>\\007"', '--setenv=PS1=<mock-chroot> \\s-\\v\\$ ', '--setenv=LANG=C.UTF-8', '--resolv-conf=off', 'bash', '--login', '-c', '/usr/bin/rpmbuild -bb --target x86_64 --nodeps /builddir/build/SPECS/php-fkooman-oauth2-server.spec'] with env {'TERM': 'vt100', 'SHELL': '/bin/bash', 'HOME': '/builddir', 'HOSTNAME': 'mock', 'PATH': '/usr/bin:/bin:/usr/sbin:/sbin', 'PROMPT_COMMAND': 'printf "\\033]0;<mock-chroot>\\007"', 'PS1': '<mock-chroot> \\s-\\v\\$ ', 'LANG': 'C.UTF-8', 'SYSTEMD_NSPAWN_TMPFS_TMP': '0', 'SYSTEMD_SECCOMP': '0'} and shell False
+Building target platforms: x86_64
+Building for target x86_64
+setting SOURCE_DATE_EPOCH=1641254400
+Executing(%prep): /bin/sh -e /var/tmp/rpm-tmp.UHRQ8n
++ umask 022
++ cd /builddir/build/BUILD
++ /usr/bin/minisign -V -m /builddir/build/SOURCES/php-oauth2-server-7.0.0.tar.xz -x /builddir/build/SOURCES/php-oauth2-server-7.0.0.tar.xz.minisig -p /builddir/build/SOURCES/minisign-8466FFE127BCDC82.pub
+Signature and comment signature verified
+Trusted comment: timestamp:1641287636	file:php-oauth2-server-7.0.0.tar.xz
++ cd /builddir/build/BUILD
++ rm -rf php-oauth2-server-7.0.0
++ /usr/bin/tar -xof -
++ /usr/bin/xz -dc /builddir/build/SOURCES/php-oauth2-server-7.0.0.tar.xz
++ STATUS=0
++ '[' 0 -ne 0 ']'
++ cd php-oauth2-server-7.0.0
++ /usr/bin/chmod -Rf a+rX,u+w,g-w,o-w .
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%build): /bin/sh -e /var/tmp/rpm-tmp.422CBI
++ umask 022
++ cd /builddir/build/BUILD
++ cd php-oauth2-server-7.0.0
++ /usr/bin/phpab -t fedora -o src/autoload.php src
+phpab 1.27.1 - Copyright (C) 2009 - 2022 by Arne Blankerts and Contributors
+Scanning directory src
+Autoload file src/autoload.php generated.
+Executing(%install): /bin/sh -e /var/tmp/rpm-tmp.WE2DSR
++ RPM_EC=0
+++ jobs -p
++ exit 0
++ umask 022
++ cd /builddir/build/BUILD
++ '[' /builddir/build/BUILDROOT/php-fkooman-oauth2-server-7.0.0-1.fc35.x86_64 '!=' / ']'
++ rm -rf /builddir/build/BUILDROOT/php-fkooman-oauth2-server-7.0.0-1.fc35.x86_64
+++ dirname /builddir/build/BUILDROOT/php-fkooman-oauth2-server-7.0.0-1.fc35.x86_64
++ mkdir -p /builddir/build/BUILDROOT
++ mkdir /builddir/build/BUILDROOT/php-fkooman-oauth2-server-7.0.0-1.fc35.x86_64
++ cd php-oauth2-server-7.0.0
++ mkdir -p /builddir/build/BUILDROOT/php-fkooman-oauth2-server-7.0.0-1.fc35.x86_64/usr/share/php/fkooman/OAuth/Server
++ cp -pr src/AccessToken.php src/AccessTokenVerifierInterface.php src/Authorization.php src/AuthorizationCode.php src/Base64UrlSafe.php src/BearerValidator.php src/Binary.php src/ClientDbInterface.php src/ClientInfo.php src/Dt.php src/Exception src/Http src/Json.php src/LocalAccessTokenVerifier.php src/OAuthServer.php src/PdoStorage.php src/Random.php src/RandomInterface.php src/RefreshToken.php src/Scope.php src/Signer.php src/SignerInterface.php src/SimpleClientDb.php src/StorageInterface.php src/autoload.php /builddir/build/BUILDROOT/php-fkooman-oauth2-server-7.0.0-1.fc35.x86_64/usr/share/php/fkooman/OAuth/Server
++ /usr/bin/find-debuginfo -j2 --strict-build-id -m -i --build-id-seed 7.0.0-1.fc35 --unique-debug-suffix -7.0.0-1.fc35.x86_64 --unique-debug-src-base php-fkooman-oauth2-server-7.0.0-1.fc35.x86_64 --run-dwz --dwz-low-mem-die-limit 10000000 --dwz-max-die-limit 110000000 -S debugsourcefiles.list /builddir/build/BUILD/php-oauth2-server-7.0.0
++ /usr/lib/rpm/check-buildroot
++ /usr/lib/rpm/redhat/brp-ldconfig
++ /usr/lib/rpm/brp-compress
++ /usr/lib/rpm/redhat/brp-strip-lto /usr/bin/strip
++ /usr/lib/rpm/brp-strip-static-archive /usr/bin/strip
++ /usr/lib/rpm/check-rpaths
++ /usr/lib/rpm/redhat/brp-mangle-shebangs
++ /usr/lib/rpm/redhat/brp-python-bytecompile '' 1 0
++ /usr/lib/rpm/redhat/brp-python-hardlink
+Executing(%check): /bin/sh -e /var/tmp/rpm-tmp.EcWiXq
++ umask 022
++ cd /builddir/build/BUILD
++ cd php-oauth2-server-7.0.0
++ /usr/bin/phpab -o tests/autoload.php tests
+phpab 1.27.1 - Copyright (C) 2009 - 2022 by Arne Blankerts and Contributors
+Scanning directory tests
+Autoload file tests/autoload.php generated.
++ cat
++ tee -a tests/autoload.php
+require_once 'src/autoload.php';
++ /usr/bin/phpunit9 tests --verbose --bootstrap=tests/autoload.php
+PHPUnit 9.5.18 #StandWithUkraine
+Runtime:       PHP 8.0.17
+Configuration: /builddir/build/BUILD/php-oauth2-server-7.0.0/phpunit.xml.dist
+.......................................                           39 / 39 (100%)
+Time: 00:00.026, Memory: 6.00 MB
+OK (39 tests, 61 assertions)
+Processing files: php-fkooman-oauth2-server-7.0.0-1.fc35.noarch
+Executing(%doc): /bin/sh -e /var/tmp/rpm-tmp.NKnjpW
++ RPM_EC=0
+++ jobs -p
++ exit 0
++ umask 022
++ cd /builddir/build/BUILD
++ cd php-oauth2-server-7.0.0
++ DOCDIR=/builddir/build/BUILDROOT/php-fkooman-oauth2-server-7.0.0-1.fc35.x86_64/usr/share/doc/php-fkooman-oauth2-server
++ export LC_ALL=C
++ LC_ALL=C
++ export DOCDIR
++ /usr/bin/mkdir -p /builddir/build/BUILDROOT/php-fkooman-oauth2-server-7.0.0-1.fc35.x86_64/usr/share/doc/php-fkooman-oauth2-server
++ cp -pr composer.json /builddir/build/BUILDROOT/php-fkooman-oauth2-server-7.0.0-1.fc35.x86_64/usr/share/doc/php-fkooman-oauth2-server
++ cp -pr CHANGES.md /builddir/build/BUILDROOT/php-fkooman-oauth2-server-7.0.0-1.fc35.x86_64/usr/share/doc/php-fkooman-oauth2-server
++ cp -pr README.md /builddir/build/BUILDROOT/php-fkooman-oauth2-server-7.0.0-1.fc35.x86_64/usr/share/doc/php-fkooman-oauth2-server
++ cp -pr TOKEN_FORMAT.md /builddir/build/BUILDROOT/php-fkooman-oauth2-server-7.0.0-1.fc35.x86_64/usr/share/doc/php-fkooman-oauth2-server
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Executing(%license): /bin/sh -e /var/tmp/rpm-tmp.hMeL71
++ umask 022
++ cd /builddir/build/BUILD
++ cd php-oauth2-server-7.0.0
++ LICENSEDIR=/builddir/build/BUILDROOT/php-fkooman-oauth2-server-7.0.0-1.fc35.x86_64/usr/share/licenses/php-fkooman-oauth2-server
++ export LC_ALL=C
++ LC_ALL=C
++ export LICENSEDIR
++ /usr/bin/mkdir -p /builddir/build/BUILDROOT/php-fkooman-oauth2-server-7.0.0-1.fc35.x86_64/usr/share/licenses/php-fkooman-oauth2-server
++ cp -pr LICENSE /builddir/build/BUILDROOT/php-fkooman-oauth2-server-7.0.0-1.fc35.x86_64/usr/share/licenses/php-fkooman-oauth2-server
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Provides: php-composer(fkooman/oauth2-server) = 7.0.0 php-fkooman-oauth2-server = 7.0.0-1.fc35
+Requires(rpmlib): rpmlib(CompressedFileNames) <= 3.0.4-1 rpmlib(FileDigests) <= 4.6.0-1 rpmlib(PayloadFilesHavePrefix) <= 4.0-1
+Checking for unpackaged file(s): /usr/lib/rpm/check-files /builddir/build/BUILDROOT/php-fkooman-oauth2-server-7.0.0-1.fc35.x86_64
+Wrote: /builddir/build/RPMS/php-fkooman-oauth2-server-7.0.0-1.fc35.noarch.rpm
+Executing(%clean): /bin/sh -e /var/tmp/rpm-tmp.bMtGMz
++ umask 022
++ cd /builddir/build/BUILD
++ cd php-oauth2-server-7.0.0
++ /usr/bin/rm -rf /builddir/build/BUILDROOT/php-fkooman-oauth2-server-7.0.0-1.fc35.x86_64
++ RPM_EC=0
+++ jobs -p
++ exit 0
+Child return code was: 0
+Mock Version: 3.0

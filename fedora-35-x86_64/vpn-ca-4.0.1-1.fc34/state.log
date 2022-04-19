@@ -1,0 +1,22 @@
+2022-04-18 17:11:52,866 - Mock Version: 3.0
+2022-04-18 17:11:52,901 - Start: clean chroot
+2022-04-18 17:11:57,846 - Finish: clean chroot
+2022-04-18 17:11:57,853 - Start(bootstrap): chroot init
+2022-04-18 17:11:57,945 - Start(bootstrap): cleaning package manager metadata
+2022-04-18 17:11:57,947 - Finish(bootstrap): cleaning package manager metadata
+2022-04-18 17:11:58,440 - Finish(bootstrap): chroot init
+2022-04-18 17:11:58,448 - Start: chroot init
+2022-04-18 17:11:58,507 - Start: unpacking root cache
+2022-04-18 17:12:00,441 - Finish: unpacking root cache
+2022-04-18 17:12:00,447 - Start: cleaning package manager metadata
+2022-04-18 17:12:00,451 - Finish: cleaning package manager metadata
+2022-04-18 17:12:01,530 - Start: dnf update
+2022-04-18 17:12:07,181 - Finish: dnf update
+2022-04-18 17:12:07,194 - Finish: chroot init
+2022-04-18 17:12:07,200 - Start: build phase for vpn-ca-4.0.1-1.fc34.src.rpm
+2022-04-18 17:12:07,202 - Start: build setup for vpn-ca-4.0.1-1.fc34.src.rpm
+2022-04-18 17:13:15,958 - Finish: build setup for vpn-ca-4.0.1-1.fc34.src.rpm
+2022-04-18 17:13:15,959 - Start: rpmbuild vpn-ca-4.0.1-1.fc34.src.rpm
+2022-04-18 17:13:28,567 - Finish: rpmbuild vpn-ca-4.0.1-1.fc34.src.rpm
+2022-04-18 17:13:28,591 - Finish: build phase for vpn-ca-4.0.1-1.fc34.src.rpm
+2022-04-19 09:17:13,266 - Mock Version: 3.0
