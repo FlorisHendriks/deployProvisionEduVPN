@@ -53,12 +53,21 @@ systemctl disable --now vpn-daemon >/dev/null 2>/dev/null || true
 
 cat << EOF > /etc/yum.repos.d/eduVPN_v3-dev.repo
 [eduVPN_v3-dev]
-name=eduVPN 3.x Development Packages (Fedora \$releasever)
-baseurl=https://repo.tuxed.net/eduVPN/v3-dev/rpm/fedora-\$releasever-\$basearch
+name=eduVPN Development Packages Provisioning (Fedora $releasever)
+baseurl=https://repo.strategyit.nl/repository/fedora-\$releasever-\$basearch
 gpgcheck=1
-gpgkey=https://repo.tuxed.net/fkooman+repo@tuxed.net.asc
+gpgkey=https://repo.strategyit.nl/repository/floris.hendriks@ru.nl.asc
 enabled=1
 EOF
+
+#cat << EOF > /etc/yum.repos.d/eduVPN_v3-dev.repo
+#[eduVPN_v3-dev]
+#name=eduVPN 3.x Development Packages (Fedora \$releasever)
+#baseurl=https://repo.tuxed.net/eduVPN/v3-dev/rpm/fedora-\$releasever-\$basearch
+#gpgcheck=1
+#gpgkey=https://repo.tuxed.net/fkooman+repo@tuxed.net.asc
+#enabled=1
+#EOF
 
 # install software (dependencies)
 /usr/bin/dnf -y install mod_ssl php-opcache httpd iptables-nft pwgen cronie \
