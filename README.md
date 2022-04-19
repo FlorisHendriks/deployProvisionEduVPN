@@ -1,2 +1,1 @@
-# provisionPackage
-This repository deploys a Fedora eduVPN with custom support for provisioning
+# deploy a Fedora eduVPN server with custom support for provisioning.
