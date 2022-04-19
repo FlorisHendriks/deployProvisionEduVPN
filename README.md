@@ -56,13 +56,13 @@ Client authentication will be done via mutual TLS. We therefore need to check if
 
 Then add the following between <VirtualHost \*:443> </VirtualHost> :
 
-`SSLVerifyClient optional <br />
-SSLVerifyDepth 1 <br />
-SSLOptions +StdEnvVars
-SSLCACertificateFile /etc/httpd/ADCA.crt
-SSLUserName SSL_CLIENT_S_DN_CN`
+`SSLVerifyClient optional` \
+`SSLVerifyDepth 1` \
+`SSLOptions +StdEnvVars` \
+`SSLCACertificateFile /etc/httpd/ADCA.crt` \
+`SSLUserName SSL_CLIENT_S_DN_CN` \
 
-Where /etc/httpd/ADCA.crt is the certificate of your root CA.
+Where /etc/httpd/ADCA.crt is path to the the stored CA certificate.
 
 ## Configuration
 
