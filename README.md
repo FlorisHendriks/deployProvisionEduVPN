@@ -1,6 +1,6 @@
 With this deploy script you will be able to deploy a Fedora eduVPN server with custom support for provisioning.
 
-[This script is part of making eduVPN a system VPN rather than a client VPN.](https://github.com/FlorisHendriks98/eduVPN-provisioning)
+[This repository is part of making eduVPN a system VPN rather than a client VPN.](https://github.com/FlorisHendriks98/eduVPN-provisioning)
 
 Additional scripts are available after deployment:
 
