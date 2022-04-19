@@ -54,7 +54,7 @@ Client authentication will be done via mutual TLS. We therefore need to check if
 
   $ vim /etc/httpd/conf.d/vpn.example.org.conf
 
-Then add the following between <VirtualHost \*:443> </VirtualHost> :
+Then add the following between <VirtualHost \*:443> \</VirtualHost> :
 
 `SSLVerifyClient optional` \
 `SSLVerifyDepth 1` \
