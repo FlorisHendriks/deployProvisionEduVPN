@@ -39,7 +39,7 @@ Perform these steps on the host where you want to deploy:
     
 Traverse to the git repository:
 
-`$ cd deployProvisionEduVPN`
+    $ cd deployProvisionEduVPN/
 
 Run the script (as root):
 
