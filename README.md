@@ -68,9 +68,13 @@ Then add the following between <VirtualHost \*:443> \</VirtualHost> :
 `SSLVerifyDepth 1` \
 `SSLOptions +StdEnvVars` \
 `SSLCACertificateFile /etc/httpd/ADCA.crt` \
-`SSLUserName SSL_CLIENT_S_DN_CN`
+`SSLUserName SSL_CLIENT_S_DN_CN` \
+`SSLOCSPEnable on` \
+`SSLOCSPUseRequestNonce off`
 
 Where /etc/httpd/ADCA.crt is the path to the the stored CA certificate.
+
+Where SSLOCSPUseRequestNonce (on/off) depends whether your OCSP responder uses nonces or not.
 
 ## Configuration
 
