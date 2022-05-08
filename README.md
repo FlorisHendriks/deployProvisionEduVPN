@@ -57,7 +57,7 @@ client and VPN server. So if you have SSH running on your server, the clients
 will be able to connect to it when you don't take additional steps! Look 
 [here](FIREWALL.md).
 
-## Step 2: Set up mutual TLS and OCSP verification
+## Step 2: Set up mutual TLS
 Client authentication will be done via mutual TLS. We therefore need to check if the certificate the client provides us is signed by the ADCS root CA. Moreover, we need to check if this certificate is revoked or not. To set this up, we configure the /etc/httpd/conf.d/vpn.example.org.conf:
 
   $ vim /etc/httpd/conf.d/vpn.example.org.conf
@@ -69,12 +69,8 @@ Then add the following between <VirtualHost \*:443> \</VirtualHost> :
 `SSLOptions +StdEnvVars` \
 `SSLCACertificateFile /etc/httpd/ADCA.crt` \
 `SSLUserName SSL_CLIENT_S_DN_CN` \
-`SSLOCSPEnable on` \
-`SSLOCSPUseRequestNonce off`
 
 Where /etc/httpd/ADCA.crt is the path to the the stored CA certificate.
-
-Where SSLOCSPUseRequestNonce (on/off) depends whether your OCSP responder uses nonces or not.
 
 ## Configuration
 
