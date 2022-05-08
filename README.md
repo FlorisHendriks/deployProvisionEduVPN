@@ -68,7 +68,7 @@ Then add the following between <VirtualHost \*:443> \</VirtualHost> :
 `SSLVerifyDepth 1` \
 `SSLOptions +StdEnvVars` \
 `SSLCACertificateFile /etc/httpd/ADCA.crt` \
-`SSLUserName SSL_CLIENT_S_DN_CN` \
+`SSLUserName SSL_CLIENT_S_DN_CN`
 
 Where /etc/httpd/ADCA.crt is the path to the the stored CA certificate.
 
