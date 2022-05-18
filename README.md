@@ -1,4 +1,4 @@
-**Note: We have put the RPM repository from where you retrieve the RPM packages offline. This document is now for archiving purposes only**
+**Note: We have put the RPM repository from where you retrieve the RPM packages offline. This document is now for archiving purposes only.**
 ## Introduction
 
 With this deploy script you will be able to deploy a Fedora eduVPN server with custom support for provisioning.
